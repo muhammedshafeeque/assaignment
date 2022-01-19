@@ -1,0 +1,67 @@
+.music-play-graphic-div{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 771px;
+}
+.finished-text-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 16px;
+    width: 66px;
+    height: 44px;
+    left: 203px;
+    top: 582px;
+    background: #343434;
+    border: 1px solid #595959;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.finished-time{
+    position: static;
+width: 34px;
+height: 24px;
+left: 16px;
+top: 10px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+color: #E3E3E3;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+.music-graphic-area{
+    
+    width: 70%;
+    height: 44px;
+    left: 293px;
+    top: 585px;
+    display: flex;
+    justify-content: space-between;
+    background: #9136FE;
+}
+.comment-circle{
+    width: 44px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+    padding-top: 10px;
+    background: #C8148C;
+    border: 1.375px solid #C8148C;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+.comment-icon{
+    color: white;
+    height: 25px;
+    width: 25px;
+
+}

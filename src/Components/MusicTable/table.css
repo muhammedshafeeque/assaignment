@@ -1,0 +1,99 @@
+table{
+    width: 100%;
+}
+th {
+    padding: 8px;
+    text-align: left;
+    color: #7D7D7D;
+    border-bottom: 1px solid #343434;
+}
+td{
+    color: #C4C4C4;
+    padding: 8px;
+    text-align: left;
+   
+}
+.table-navbar{
+width: 777px;
+height: 59px;
+left: 203px;
+top: 677px;
+display: flex;
+
+/* /font/black */
+background: #121212;
+border-radius: 10px;
+}
+.sort{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 10px 0 10px 10px;
+    height: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid #E3E3E3;;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.sort p{
+    color: #E3E3E3;
+    cursor: pointer;
+}
+.sort-select{
+    background-color:#121212;
+    color: #E3E3E3;
+    border-style: none;
+    cursor: pointer;
+}
+.filter{
+    background-color:#121212;
+    color: #E3E3E3;
+    margin-left: 10px;
+    -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+   cursor: pointer;
+}
+.manage-area{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #E3E3E3;
+}
+.manage-icon{
+    margin-right: 40px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.search-section{
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #E3E3E3;
+}
+.music-icondiv{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 35px;
+    height: 35px;
+    background: #181414;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.music-icon{
+
+    width: 25px;
+    height: 25px;
+/* new brand / gradient */
+
+background: linear-gradient(125.89deg, #C8148C 29.01%, #9036FD 80.96%);
+}
+.table-first-coloum{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

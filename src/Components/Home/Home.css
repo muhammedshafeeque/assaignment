@@ -1,0 +1,50 @@
+.headers{
+    margin-top: 2rem;
+   
+    padding-left: 20px;
+
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+
+}
+.main-area{
+    display: flex;
+}
+.song-name{
+
+    width: 368px;
+    height: 24px;
+    top: 18px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    display: flex;
+    align-items: center; 
+    color: #FFFFFF;
+}
+.avathar-div{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.avathar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.midile-section{
+    padding-left: 20px;
+    
+  
+}
+.right-section{
+    padding-top: 2.5rem;
+    padding-left: 20px;
+    padding-right: 20px;
+}

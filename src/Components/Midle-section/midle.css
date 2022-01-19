@@ -1,0 +1,52 @@
+
+.graphic-image{
+    margin-top: 40px;
+    width: 771px;
+    height: 400px;
+    left: 203px;
+    top: 142px;
+    background: linear-gradient(125.89deg, rgba(200, 20, 140, 0.3) 29.01%, rgba(144, 54, 253, 0.3) 80.96%);
+    border-radius: 10px;
+}
+.comment-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.comant-list-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #C8148C;
+    box-sizing: border-box;
+    backdrop-filter: blur(20px);
+/* Note: backdrop-filter has minimal browser support */
+    border-radius: 32px;
+/* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 20px 16px;
+    
+}
+.comant-list-button p{
+    position: static;
+    width: 135px;
+    height: 20px;
+    left: 16px;
+    top: 8px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 17px;
+    color: #C8148C;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+    padding-top: 8px;
+}

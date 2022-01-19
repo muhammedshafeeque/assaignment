@@ -1,0 +1,48 @@
+.file-history{
+    margin-top: 15px;
+    width: 360px;
+    height: 329px;
+    background: #121212;
+    border-radius: 10px;
+    padding-top: 5px;
+}
+.history-header{
+    position: static;
+    width: 92px;
+    height: 21px;
+
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bold;
+  
+    color: #E3E3E3;
+    flex: none;
+
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.history-body{
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+}
+.history-sub-head{
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #595959;
+    margin-top: 15px;
+}
+.history-value{
+    font-family: SF Pro Display;
+    font-style: normal;
+    margin-top: 5px;
+
+    color: #E3E3E3;
+
+
+
+}
