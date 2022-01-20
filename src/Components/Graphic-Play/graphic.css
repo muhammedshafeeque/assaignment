@@ -2,7 +2,7 @@
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
-    width: 771px;
+    width:100%;
 }
 .finished-text-div{
     display: flex;
@@ -21,22 +21,22 @@
 }
 .finished-time{
     position: static;
-width: 34px;
-height: 24px;
-left: 16px;
-top: 10px;
+    width: 34px;
+    height: 24px;
+    left: 16px;
+    top: 10px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 16px;
-line-height: 24px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
 
-color: #E3E3E3;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 0px 10px;
+    color: #E3E3E3;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
 }
 .music-graphic-area{
     
@@ -49,6 +49,7 @@ margin: 0px 10px;
     background: #9136FE;
 }
 .comment-circle{
+    cursor: pointer;
     width: 44px;
     height: 44px;
     left: 0px;

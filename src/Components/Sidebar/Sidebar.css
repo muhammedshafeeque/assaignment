@@ -1,31 +1,35 @@
 .Sidebar{   
     background-color: black;
     color: white;
-  width: 165px;
-  left: 0px;
-  top: 0px;
+  width: 15%;
+ 
 }
 .sidebar-home{
     display: flex;
     left: 0%;
     right: 0%;
-    background: rgba(117, 117, 117, 0.25);
+    background: rgb(23, 23, 24);
     border-radius: 3px 0px 0px 3px;
     padding-left: 8px;
     padding-top: 10px;
+    cursor: pointer;
 }
 .sidebar-home p{
     margin-top: 0;
     margin-left: 10px;
 }
 .side-bar-logo{
-    height: 190px;
+    height: 150px;
 }
 .logo{
+    cursor: pointer;
     left: 30.91%;
     right: 30.3%;
+    height: 100px;
+    width: 100px;
 }
 .sidebar-item{
+    cursor: pointer;
     padding-left: 8px;
     padding-top: 10px;
     left: 0%;

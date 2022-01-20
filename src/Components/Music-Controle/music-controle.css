@@ -1,0 +1,77 @@
+.music-controle-system{
+    min-width: 500px;
+
+}
+.controle-top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controle-icons{
+   cursor: pointer;
+   width: 300px;
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+}
+.playback-icon{
+    color: #7D7D7D;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+}
+.shuffle{
+    cursor: pointer;
+    color: #9136FE;
+    width: 20px;
+    height: 20px;
+}
+.back-and-forword{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    color: #DADADA;
+
+}
+.pause-button{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    color: #9136FE;
+}
+.lopp-icon{
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    color: #9136FE;
+    size: 1px;
+}
+.input-controles  input[type="range"] {
+    cursor: pointer;
+    -webkit-appearance: none;
+  
+    width: 400px;
+    height: 3px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 5px;
+    background-image: linear-gradient(#9136FE, #C4C4C4 );
+   
+    background-repeat: no-repeat;
+  }
+  .input-controles{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .input-controles p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 13px;
+    
+    color: #FFFFFF;
+  }

@@ -8,23 +8,23 @@ th {
     border-bottom: 1px solid #343434;
 }
 td{
+    cursor: pointer;
     color: #C4C4C4;
     padding: 8px;
     text-align: left;
    
 }
 .table-navbar{
-width: 777px;
-height: 59px;
-left: 203px;
-top: 677px;
-display: flex;
-
-/* /font/black */
-background: #121212;
-border-radius: 10px;
+    width: 100%;
+    height: 59px;
+    left: 203px;
+    top: 677px;
+    display: flex;
+    background: #121212;
+    border-radius: 10px;
 }
 .sort{
+    
     align-items: center;
     justify-content: center;
     display: flex;
@@ -83,14 +83,15 @@ border-radius: 10px;
     background: #181414;
     border-radius: 5px;
     margin-right: 10px;
+   
 }
 .music-icon{
 
     width: 25px;
     height: 25px;
-/* new brand / gradient */
+    color:#C8148C ;
 
-background: linear-gradient(125.89deg, #C8148C 29.01%, #9036FD 80.96%);
+
 }
 .table-first-coloum{
     display: flex;

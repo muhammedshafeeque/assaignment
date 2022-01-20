@@ -1,4 +1,5 @@
 .headers{
+    cursor: pointer;
     margin-top: 2rem;
    
     padding-left: 20px;
@@ -40,10 +41,12 @@
 }
 .midile-section{
     padding-left: 20px;
+    width: 70%;
     
   
 }
 .right-section{
+    width: 30%;
     padding-top: 2.5rem;
     padding-left: 20px;
     padding-right: 20px;

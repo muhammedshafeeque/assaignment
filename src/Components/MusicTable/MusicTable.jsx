@@ -4,10 +4,11 @@ import { HiAdjustments } from 'react-icons/hi'
 import { FiCopy, FiSearch } from 'react-icons/fi'
 import { CgArrowTopRight } from 'react-icons/cg'
 import { MdDelete } from 'react-icons/md'
-import { HiMusicNote } from 'react-icons/hi'
-import {BiDotsVerticalRounded} from 'react-icons/bi'
+import { BiDotsVerticalRounded } from 'react-icons/bi'
+import Music from '../music/Music';
 function MusicTable() {
   return <div>
+    {/* starting of table controle  bar  */}
     <div className="table-navbar">
       <div className="sort">
         <p>Sort By</p>
@@ -27,9 +28,9 @@ function MusicTable() {
       <div className="search-section">
         <FiSearch className='manage-icon' />
       </div>
+      {/* end of controle bar  */}
 
-
-
+      {/* starting of table */}
     </div>
     <table >
       <thead>
@@ -47,32 +48,30 @@ function MusicTable() {
         <tr>
 
           <td> <div className='table-first-coloum'>
-            <div className="music-icondiv">
-              <HiMusicNote className='music-icon' />
-            </div><p>Song name</p> </div></td>
+         
+            <Music /> <p>Song name</p> </div></td>
           <td>  jan 25 2021</td>
           <td>20 shares</td>
           <td>Planet her</td>
           <td>312.128 BPM</td>
-          <td><BiDotsVerticalRounded/></td>
+          <td><BiDotsVerticalRounded /></td>
         </tr>
         <tr>
 
           <td> <div className='table-first-coloum'>
-            <div className="music-icondiv">
-              <HiMusicNote className='music-icon' />
-            </div><p>Song name</p> </div></td>
+            <Music /> <p>Song name</p> </div></td>
           <td>  jan 25 2021</td>
           <td>20 shares</td>
           <td>Planet her</td>
           <td>312.128 BPM</td>
-          <td><BiDotsVerticalRounded/></td>
+          <td><BiDotsVerticalRounded /></td>
         </tr>
 
       </tbody>
 
 
     </table>
+    {/* end of table */}
   </div>;
 }
 

@@ -25,7 +25,7 @@
     display: flex;
     padding-left: 20px;
     padding-right: 20px;
-    justify-content: space-between;
+  
 }
 .history-sub-head{
     font-family: SF Pro Display;
@@ -45,4 +45,8 @@
 
 
 
+}
+.left-part{
+    width: 50%;
+    text-align: start;
 }
